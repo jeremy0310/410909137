@@ -1,4 +1,4 @@
-rom flask import Flask, render_template, request
+from flask import Flask, render_template, request
 from datetime import datetime
 
 app = Flask(__name__)
@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    x = "<h1>資管二A游欣婕的求職相關資訊</h1>"
+    x = "<h1>企管四B陳昭毅的求職相關資訊</h1>"
     x += "<a href=/about>個人簡介</a><br>"
     x += "<a href=/work>ERP系統工作相關介紹</a><br>"
     x += "<a href=/test>職涯測驗分析</a><br>"
