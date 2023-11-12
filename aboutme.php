@@ -58,6 +58,6 @@
 </td>
 </tr>
 </table>
-
+<?php echo date("Y-m-d") ?>
 </body>
 </html>
